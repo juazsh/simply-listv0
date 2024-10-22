@@ -35,7 +35,9 @@ export function WorkoutList({ workoutName, isCompleted }: Props) {
           styles.itemText,
           isCompleted ? styles.completedText : undefined,
         ]}
-      >{workoutName}</Text>
+      >
+        {workoutName}
+      </Text>
       <TouchableOpacity onPress={handleRemove} activeOpacity={0.7}>
         <AntDesign
           name="closecircle"

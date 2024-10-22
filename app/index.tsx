@@ -1,5 +1,5 @@
 import { StyleSheet, View } from "react-native";
-import { WorkoutList } from "./components/WorkoutList";
+import { WorkoutList } from "../components/WorkoutList";
 
 export default function App() {
   return (
